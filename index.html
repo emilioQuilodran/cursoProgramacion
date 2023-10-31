@@ -1,40 +1,352 @@
 <!doctype html>
 <html lang="en">
+
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Desarrollo de software</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Emilio Quilodran">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
 
-		<!-- Theme used for syntax highlighted code -->
+		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
+
 	<body>
+
 		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<a href="https://revealjs.com">
+						<img src="examples/assets/cecmague2.jpg" alt="reveal.js logo" style="height: 260px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</a>
+					<h3>¡Bienvenidos al curso de programación! </h3>
+					<p>
+						<small>Creado por <a href="https://emiqdev.netlify.app/">Emilio Quilodran</a> </small>
+					</p>
+				</section>
+
+				<section>
+					<p>
+						Con más de 7 años de experiencia en desarrollo web, he tenido la oportunidad de trabajar en reconocidas empresas como.
+					</p>
+					<div style="display: flex; justify-content: center; flex-direction: column;">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/d/db/Despegar.com_logo.svg" alt="despegar logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<img src="examples/assets/valtechLogo.png" alt="despegar logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<img src="examples/assets/sportLogo.png" alt="despegar logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</div>
+				</section>
+
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Personas Influyentes</h2>
+						<p>En el mundo de la programación, existen individuos cuyas contribuciones han dejado una huella indeleble en la historia de la tecnología. <br>En esta presentación, exploraremos a cuatro de estas personas influyentes: Ada Lovelace, Tim Berners-Lee, Richard Stallman y Brendan Eich</p>
+					</section>
+					<section>
+						<h2>Ada Lovelace</h2>
+						<img src="examples/assets/ada.jpg" alt="reveal.js logo" style="height: 260px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<ul>
+							<li>
+								Matemática y escritora británica del siglo XIX
+							</li>
+							<li>
+								Considerada la primera programadora de la historia
+							</li>
+							<li>
+								Trabajó en la máquina analítica de Charles Babbage
+							</li>
+							<li>
+								Desarrolló el primer algoritmo destinado a ser procesado por una máquina
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Tim Berners-Lee</h2>
+						<img src="examples/assets/tim.webp" alt="reveal.js logo" style="height: 260px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<ul>
+							<li>
+								Científico de la computación británico
+							</li>
+							<li>
+								Inventor de la World Wide Web
+							</li>
+							<li>
+								Propuso la idea de un sistema de hipertexto en 1989
+							</li>
+							<li>
+								Desarrolló los protocolos HTTP y HTML
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Richard Stallman</h2>
+						<img src="examples/assets/richard.jpg" alt="reveal.js logo" style="height: 260px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<ul>
+							<li>
+								Programador y defensor del software libre
+							</li>
+							<li>
+								Fundador del Proyecto GNU en 1983
+							</li>
+							<li>
+								Inició el movimiento del software libre
+							</li>
+							<li>
+								Contribuyó al desarrollo de la Licencia Pública General de GNU (GPL)
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Brendan Eich</h2>
+						<img src="examples/assets/brendan.jpg" alt="reveal.js logo" style="height: 260px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<ul style="font-size: 1.4rem;">
+							<li>
+								Programador y creador del lenguaje JavaScript
+							</li>
+							<li>
+								Desarrolló JavaScript en 1995 mientras trabajaba en Netscape
+							</li>
+							<li>
+								JavaScript se convirtió en uno de los lenguajes de programación más populares
+							</li>
+							<li>
+								Permite crear sitios web dinámicos y aplicaciones interactivas en el navegador
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Alan Turing</h2>
+						<img src="examples/assets/alan.jpg" alt="reveal.js logo" style="height: 260px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<ul style="font-size: 1.4rem;">
+							<li>
+								Fue pionero en el campo de la inteligencia artificial. 
+							</li>
+							<li>
+								Trabajó para descifrar los códigos nazis utilizando la máquina llamada "Bombe"
+							</li>
+							<li>
+								conocida como la "Máquina de Turing". Esta máquina teórica podría realizar cualquier cálculo matemático y es considerada el precursor de los modernos ordenadores. 
+							</li>
+							<li>
+								La contribución más conocida de Turing es el concepto de la "Prueba de Turing". Esta prueba evalúa si una máquina puede exhibir un comportamiento inteligente indistinguible del de un ser humano. Esta idea sentó las bases para el futuro desarrollo de la inteligencia artificial. 
+							</li>
+						</ul>
+					</section>
+					<section>
+						<p>
+							Es importante destacar que esta lista solo abarca a cuatro de las muchas personas influyentes en el campo de la programación. En futuras ocasiones, podremos explorar más profundamente el trabajo de otras figuras destacadas.
+						</p>
+						
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2> hechos importantes</h2>
+						<p>
+							Veremos cómo la programación ha mejorado la comunicación y el acceso a la información, ha avanzado en el campo de la medicina y ha impulsado la automatización y eficiencia en diversos sectores. También discutiremos algunos impactos negativos, como la brecha digital, la privacidad y seguridad, y el desplazamiento laboral. A continuación, analizaremos cada uno de estos aspectos en detalle. 
+						</p>
+					</section>
+					<section>
+						<h2>Impactos positivos </h2>
+						<ul style="font-size: 1.5rem;">
+							<li>
+								<h3>Mejora de la comunicación y acceso a la información</h3>
+								<p>							Creación de la World Wide Web y las redes sociales han permitido la comunicación instantánea y el intercambio de información.
+									Acceso a un vasto conocimiento en línea ha democratizado el acceso a la educación y la información.
+								</p>
+							</li>
+							<li>
+								<h3>Avances en la medicina</h3>
+								<p>
+									Desarrollo de sistemas de diagnóstico y análisis de datos médicos ha mejorado la precisión de los diagnósticos y facilitado tratamientos más efectivos.
+								</p>
+								<p>
+									Modelado de enfermedades ha ayudado en el descubrimiento de nuevas terapias y en la comprensión de enfermedades complejas.
+								</p>
+							</li>
+							<li>
+								<h3>Automatización y eficiencia</h3>
+								<p>
+									Programación ha permitido la automatización de tareas repetitivas, mejorando la eficiencia y liberando tiempo para tareas más creativas y estratégicas.
+								</p>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Impactos negativos </h2>
+						<ul style="font-size: 1.3rem;">
+							<li>
+								<h3>Brecha digital</h3>
+								<p>
+									A pesar del avance de la programación y la tecnología, aún existe una brecha digital que separa a las personas con acceso y habilidades de programación de aquellos que no lo tienen.
+								</p>
+								<p>
+									Brecha digital puede exacerbar las desigualdades sociales y económicas.
+								</p>
+							</li>
+							<li>
+								<h3>Privacidad y seguridad</h3>
+								<p>
+									Evolución de la programación ha traído consigo amenazas a la privacidad y seguridad de las personas.<br>
+									Recopilación masiva de datos, robo de información personal y ataques cibernéticos son preocupaciones importantes en la era digital.
+								</p>
+							</li>
+							<li>
+								<h3>Desplazamiento laboral</h3>
+								<p>
+									Automatización impulsada por la programación ha llevado al desplazamiento de ciertos trabajos.
+								</p>
+								<p>
+									Desafíos sociales y económicos como la necesidad de reentrenamiento laboral y la creación de nuevos empleos.
+								</p>
+							</li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h2>Herramientas</h2>
+					<section>
+						<div style="display: flex; justify-content: center; flex-direction: row; margin-top: 10rem;">
+							<img src="examples/assets/html.jpg" alt="despegar logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+							<img src="examples/assets/css.png" alt="despegar logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+							<img src="examples/assets/js.png" alt="despegar logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+							<img src="examples/assets/visual.jpg" alt="despegar logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						</div>
+						<ul style="font-size: 1.2rem; display: flex; justify-content: center; flex-direction: row; gap: 20px">
+							<li>
+								<h3>HTML</h3>
+								<p>
+									HTML (HyperText Markup Language) es el lenguaje de marcado estándar utilizado para crear la estructura y el contenido de las páginas web. Nos permitirá definir la semántica y la organización de nuestro proyecto.
+								</p>
+							</li>
+							<li>
+								<h3>CSS</h3>
+								<p>
+									CSS (Cascading Style Sheets) es un lenguaje utilizado para describir la presentación y el diseño de un documento HTML. Con CSS, podremos personalizar el aspecto visual de nuestras páginas web, aplicar estilos, colores, diseños y efectos.
+								</p>
+							</li>
+							<li>
+								<h3>JavaScript</h3>
+								<p>
+									JavaScript es un lenguaje de programación ampliamente utilizado para agregar interactividad y funcionalidad a las páginas web. Con JavaScript, podremos crear efectos dinámicos, gestionar eventos, realizar validaciones y manipular datos en tiempo real.
+								</p>
+							</li>
+							<li>
+								<h3>Visual Studio Code</h3>
+								<p>
+									Visual Studio Code es un poderoso editor de código fuente que nos brinda una amplia gama de funcionalidades y extensiones para facilitar el desarrollo. Proporciona autocompletado, depuración, control de versiones integrado y muchas otras características útiles, lo que lo convierte en una herramienta popular entre los desarrolladores.
+								</p>
+							</li>
+						</ul>
+					</section>
+					
+				</section>
+
+				<section>
+					<section>
+						<h2>Otros materiales importantes </h2>
+						<p>
+							Además de las herramientas mencionadas, también es importante tener en cuenta otros recursos y materiales que nos serán útiles durante el desarrollo del proyecto. Algunos ejemplos pueden ser:
+						</p>
+						<ul style="font-size: 1.3rem;">
+							<li>
+								<p>
+									Bibliotecas y frameworks: Dependiendo de los requisitos del proyecto, podemos utilizar bibliotecas y frameworks como Bootstrap, React.js o Vue.js para agilizar el desarrollo y aprovechar componentes predefinidos.
+								</p>
+							</li>
+							<li>
+								<p>
+									Documentación y referencias: Contar con acceso a documentación en línea, tutoriales y referencias de las tecnologías que utilizaremos nos permitirá resolver dudas y aprender nuevas técnicas.
+								</p>
+							</li>
+							<li>
+								<p>
+									Comunidades y foros: Participar en comunidades en línea y foros relacionados con el desarrollo web nos brinda la oportunidad de compartir conocimientos, obtener ayuda y estar al tanto de las últimas tendencias en la industria.
+								</p>
+							</li>
+						</ul>
+					</section>
+				</section>
+
+
+				<section data-auto-animate>
+					<h2 data-id="code-title">React</h2>
+					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+						import React, { useState } from 'react';
+
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    <div>
+						      <p>You clicked {count} times</p>
+						      <button onClick={() => setCount(count + 1)}>
+						        Click me
+						      </button>
+						    </div>
+						  );
+						}
+
+						function SecondExample() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    <div>
+						      <p>You clicked {count} times</p>
+						      <button onClick={() => setCount(count + 1)}>
+						        Click me
+						      </button>
+						    </div>
+						  );
+						}
+					</script></code></pre>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>Muchas gracias</p>
+				</section>
+
 			</div>
+
 		</div>
 
 		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
 		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
 			});
+
 		</script>
+
 	</body>
 </html>
